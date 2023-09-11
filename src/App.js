@@ -1,5 +1,4 @@
-import logo from './logo.svg';
-import './App.css';
+import './App.css'
 
 function App() {
   return (
@@ -20,6 +19,19 @@ function App() {
       </header>
     </div>
   );
+						{' '}
+						MY post
+						<div>
+							Post
+							<div>Post 1</div>
+							<div>Post 1</div>
+							<div>Post 1</div>
+						</div>
+					</div>
+				</div>
+			</main>
+		</div>
+	)
 }
 
-export default App;
+export default App
