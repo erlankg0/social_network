@@ -1,35 +1,18 @@
+import Content from './components/content/content'
+import Footer from './components/footer/footer'
+import Header from './components/header/header'
+import SideBar from './components/sidebar/sidebar'
 import './App.css'
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-						{' '}
-						MY post
-						<div>
-							Post
-							<div>Post 1</div>
-							<div>Post 1</div>
-							<div>Post 1</div>
-						</div>
-					</div>
-				</div>
+	return (
+		<div className='app-wrapper'>
+			<Header />
+			<main className='main'>
+				<SideBar />
+				<Content />
 			</main>
+			<Footer />
 		</div>
 	)
 }

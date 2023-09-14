@@ -1,0 +1,16 @@
+.nav {
+  display: flex;
+  flex-direction: column;
+  background-color: greenyellow;
+  padding: 40px 50px;
+}
+
+
+.item{
+  color: white;
+}
+
+.item a {
+  text-decoration: none;
+  font-size: 40px;
+}

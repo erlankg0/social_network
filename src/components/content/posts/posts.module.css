@@ -1,0 +1,36 @@
+.postContent {
+	display: flex;
+	flex-direction: column;
+}
+.postForm {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.inputPost {
+	background-color: rgba(87, 87, 87, 0.5);
+	border: none;
+	border-radius: 15px;
+	width: 100%;
+	height: 50px;
+	text-align: justify;
+	color: white;
+}
+
+.inputImage {
+	padding: 5px;
+	border-radius: 15px;
+	background-color: gray;
+	color: white;
+	align-self: self-end;
+	text-align: end;
+}
+
+.btnForm {
+	padding: 5px 20px;
+	border-radius: 15px;
+	border: none;
+	align-self: self-end;
+	background-color: skyblue;
+}

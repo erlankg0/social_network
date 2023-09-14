@@ -1,0 +1,33 @@
+.header {
+	background-color: green;
+}
+
+.header img {
+	width: 30px;
+	height: auto;
+	padding: 15px;
+}
+.nav {
+	background-color: greenyellow;
+	max-width: 30%;
+	width: 30%;
+}
+
+ul li {
+	list-style: none;
+	list-style-type: none;
+	display: flex;
+	flex-direction: column;
+	gap: 45px;
+	color: white;
+	font-size: 34px;
+}
+.main {
+	display: flex;
+	gap: 50px;
+	background-color: darkgoldenrod;
+}
+
+.content img {
+	width: 850px;
+}
