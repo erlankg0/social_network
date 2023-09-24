@@ -1,16 +1,23 @@
+/* sidebar.module.css */
+
 .nav {
-  display: flex;
-  flex-direction: column;
-  background-color: greenyellow;
-  padding: 40px 50px;
+	display: flex;
+	flex-direction: column;
+	background-color: greenyellow;
+	padding: 40px 50px;
 }
 
-
-.item{
-  color: white;
+.item {
+	color: white;
 }
 
 .item a {
-  text-decoration: none;
-  font-size: 40px;
+	text-decoration: none;
+	font-size: 40px;
+  color: black;
+}
+
+.item a.active {
+	color: gold; /* Styles for the active NavLink */
+  font-size: 60px;
 }

@@ -1,6 +1,7 @@
 import style from './post.module.css'
 
 function Post(props) {
+	
 	const { messages } = props
 	return (
 		<div className={style.post}>

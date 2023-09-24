@@ -1,0 +1,42 @@
+.title {
+	font-size: 50px;
+	color: rgba(220, 220, 220, 0.647);
+}
+
+.dialogs {
+	display: flex;
+	flex-direction: row;
+	gap: 150px;
+}
+
+.dialogs_items {
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+}
+
+.item {
+	color: white;
+	font-size: 45px;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.messages{
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+}
+
+.message{
+  color: whitesmoke;
+  font-size: 30px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.item a{
+  text-decoration: none;
+  color: white;
+}
+.active {
+  color: gold;
+}
