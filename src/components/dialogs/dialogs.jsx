@@ -15,7 +15,7 @@ const Message = props => {
 }
 
 const Dialogs = () => {
-	const users = ['Erlan', 'Daniel', 'Saken', 'Mirzat', 'Asema', 'Ceren']
+	const users = ['Erlan', 'Daniel', 'Saken', 'Berk', 'Asema', 'Ceren']
 	let dialogsElements = users.map((element, index) => {
 		return <DialogItem name={element} id={index} />
 	})
