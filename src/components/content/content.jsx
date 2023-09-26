@@ -1,7 +1,8 @@
 import Posts from './posts/posts.jsx'
 import User from './user/user.jsx'
 
-function Content() {
+function Content(props) {
+	const { data } = props
 	return (
 		<div>
 			<img
@@ -9,7 +10,7 @@ function Content() {
 				alt='some img'
 			></img>
 			{User()}
-			{Posts()}
+			{<Posts posts={data} />}
 		</div>
 	)
 }

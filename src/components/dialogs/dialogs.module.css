@@ -27,16 +27,4 @@
   padding: 15px;
 }
 
-.message{
-  color: whitesmoke;
-  font-size: 30px;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
 
-.item a{
-  text-decoration: none;
-  color: white;
-}
-.active {
-  color: gold;
-}

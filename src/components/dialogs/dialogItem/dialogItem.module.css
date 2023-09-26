@@ -1,0 +1,13 @@
+.item a {
+	text-decoration: none;
+	color: white;
+
+	display: flex;
+	gap: 15px;
+}
+a.active {
+	color: gold;
+}
+.image {
+	width: 45px;
+}

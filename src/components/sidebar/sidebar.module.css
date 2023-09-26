@@ -14,10 +14,16 @@
 .item a {
 	text-decoration: none;
 	font-size: 40px;
-  color: black;
+	color: black;
 }
 
 .item a.active {
 	color: gold; /* Styles for the active NavLink */
-  font-size: 60px;
+	font-size: 60px;
+}
+
+.friends {
+	display: flex;
+	gap: 10px;
+	margin: 0 auto;
 }

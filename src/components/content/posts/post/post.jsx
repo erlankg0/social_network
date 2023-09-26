@@ -12,6 +12,7 @@ function Post(props) {
 					src='https://media.sproutsocial.com/uploads/2022/04/Best-times-to-post-2022_BTTP-Social-Media.jpg'
 					alt='post images'
 				></img>
+				<p>{props.likeCount}</p>
 			</div>
 		</div>
 	)
